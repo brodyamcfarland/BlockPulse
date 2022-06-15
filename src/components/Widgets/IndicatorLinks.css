@@ -1,0 +1,41 @@
+.links_container {
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 5px #2b2b2b;
+    font-size: .8rem;
+}
+
+.links_explained > header {
+    font-size: .9rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.links_explained > article {
+    padding-bottom: 2.8rem;
+}
+
+.link_tree {
+    text-align: center;
+}
+
+.link_tree > a {
+    color: rgb(158, 158, 248);
+    transition: ease-in-out 1s;
+}
+
+.link_tree > a:hover {
+    color: rgb(158, 248, 241);
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    .link_tree > a {
+        font: .5rem;
+    }
+
+    a {
+        font-size: .8rem;
+    }
+}
+

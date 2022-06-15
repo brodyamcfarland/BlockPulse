@@ -1,0 +1,43 @@
+.container {
+    justify-content: center;
+    text-align: center;
+}
+.header {
+    margin-bottom: 0;
+}
+.subheader {
+    text-align: center;
+    justify-content: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-weight: 350;
+    font-size: .8rem;
+}
+
+a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: all ease-in-out .5s;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    .subheader {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        font-size: .9rem;
+    }
+}
+
+/* ========== MEDIA QUERY (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+    .subheader {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: .8rem;
+    }
+}

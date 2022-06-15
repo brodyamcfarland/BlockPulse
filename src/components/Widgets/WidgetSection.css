@@ -1,0 +1,29 @@
+.widget_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background-image: linear-gradient(45deg,rgb(41, 41, 41), black);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: all ease-in-out .5s;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    .widget_grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+}
+
+/* ========== MEDIA QUERY (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+    .widget_grid {
+        grid-template-columns: 100%;
+        gap: 1rem;
+    }
+}

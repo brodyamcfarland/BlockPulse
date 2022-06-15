@@ -1,0 +1,21 @@
+img {
+    width: 100vw;
+    height: 50vh;
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    img {
+        width: 90vw;
+        height: 30vh;
+    }
+
+}
+
+/* ========== MEDIA QUERY (SMALL DEVICES) =========== */
+@media screen and (max-width: 500px) {
+    img {
+        width: 85vw;
+        height: 20vh;
+    }
+}

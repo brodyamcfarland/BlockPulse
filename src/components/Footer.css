@@ -1,0 +1,30 @@
+.container_footer {
+    width: 100vw;
+    display:flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.social_links {
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.2rem;
+    transition: all ease-in-out .8s;
+}
+
+.copywright_tag {
+    font-size: .6rem;
+    padding-bottom: 1rem;
+}
+
+a:hover {
+    transform: rotate(360deg);
+    color: gray;
+}

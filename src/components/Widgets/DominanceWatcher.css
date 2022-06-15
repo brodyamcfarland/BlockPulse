@@ -1,0 +1,93 @@
+.dominance_wrapper {
+    padding: 2rem;
+    font-size: .8rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px #2b2b2b;
+}
+
+.dominance_wrapper > header {
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.dominance_wrapper > article {
+    padding-bottom: 1.5rem;
+    text-align: left;
+}
+
+.dominance_main {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+.active_crypto {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.btc_dom {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.eth_dom {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.ada_dom {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.bnb_dom {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.usdc_dom {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.crpytosym {
+    position: relative;
+    float: left;
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    .dominance_main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .active_crypto {
+        padding: .09rem;
+    }
+}
+
+/* ========== MEDIA QUERY (SMALL) =========== */
+@media screen and (max-width: 420px) {
+    .dominance_wrapper {
+        padding: 0.05rem;
+        font-size: .7rem;
+    }
+    .dominance_wrapper > article,header {
+        padding: 1rem;
+        
+    }
+}

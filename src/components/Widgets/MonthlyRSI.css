@@ -1,0 +1,76 @@
+.RSIcontainer {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: .8rem;
+    box-shadow: 5px 5px #2b2b2b;
+}
+
+.explanation {
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: left;
+    padding-bottom: 4rem;
+}
+
+.historicalRSI {
+    text-align: center;
+}
+
+.todayMRSI {
+    border-radius: 1rem;
+    border: 1px solid white;
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.histlist {
+    border-radius: 1rem;
+    border: 1px solid white;
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.yellownumbas {
+    color: yellow;
+    padding-right: .4rem;
+}
+
+.apiTodayRSI {
+    color: yellow;    
+    margin-left: .9rem;
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    .todayMRSI {
+        padding: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .histlist {
+        border-radius: 1rem;
+        border: 1px solid white;
+        padding: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+/* ========== MEDIA QUERY (SMALL DEVICES) =========== */
+@media screen and (max-width: 420px) {
+    .todayMRSI {
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .histlist {
+        border-radius: 1rem;
+        border: 1px solid white;
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
