@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BlockPulse/static/css/main.6fc527e1.css",
+    "main.js": "/BlockPulse/static/js/main.3f120cff.js",
+    "static/media/NETVRK.png": "/BlockPulse/static/media/NETVRK.72edc0390212bb31fe5b.png",
+    "index.html": "/BlockPulse/index.html",
+    "main.6fc527e1.css.map": "/BlockPulse/static/css/main.6fc527e1.css.map",
+    "main.3f120cff.js.map": "/BlockPulse/static/js/main.3f120cff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fc527e1.css",
+    "static/js/main.3f120cff.js"
+  ]
+}
